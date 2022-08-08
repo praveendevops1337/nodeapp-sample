@@ -28,11 +28,11 @@ jobs:
   
     - name: docker tagging image
       run: |
-        docker tag  samplenodejs:latest
+        docker tag samplenodejs:latest praveendevops1337/samplenodejs:latest
         
     - name: pushing docker image to dockerhub
       run: |
-        docker push praveendevops1337/samplenodejs:latest
+        docker push 
    
       
         
