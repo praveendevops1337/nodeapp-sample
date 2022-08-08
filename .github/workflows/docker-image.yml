@@ -32,7 +32,7 @@ jobs:
         
     - name: pushing docker image to dockerhub
       run: |
-        docker push 
+        docker push praveendevops1337/samplenodejs:latest
    
       
         
