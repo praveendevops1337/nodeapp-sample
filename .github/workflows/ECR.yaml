@@ -11,7 +11,7 @@ env:
   
 jobs:
   ecrbuild:
-    name: Deploy to ECR
+    name: Deploy to ECR.
     runs-on: ubuntu-latest
     environment: STAGING
     
