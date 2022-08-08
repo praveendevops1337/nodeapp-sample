@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag mynodeapp-GA 
+      run: docker build . --file Dockerfile --tag samplenodejs
       
     - name: checking docker images  
       run: docker images
@@ -25,7 +25,7 @@ jobs:
         docker login -u praveendevops1337 -p 9ec686ffD@1
     - name: docker tagging image
       run: |
-        docker tag praveendevops1337/mynodeapp-GA:latest
+        docker tag praveendevops1337/samplenodejs:latest
         
     - name: pushing docker image to dockerhub
       run: |
